@@ -51,7 +51,7 @@ function Homepage() {
                   </div>
                   <button
                     type="button"
-                    class="btn btn-danger logout"
+                    className="btn btn-danger logout"
                     onClick={LogoutHandler}
                   >
                     LogOut
