@@ -47,11 +47,11 @@ export const Signup = () => {
       ),
 
     email: Yup.string().email("Email is invalid").required("Email is required"),
-    password: Yup.string()
+    Password: Yup.string()
       .min(6, "Password must be at least 6 charaters")
       .required("Password is required"),
     confirmPassword: Yup.string()
-      .oneOf([Yup.ref("password")], "Password must match")
+      .oneOf([Yup.ref("Password")], "Password must match")
       .required("Confirm password is required"),
   });
   //By using the formik , implemented the signup functionality
@@ -63,7 +63,7 @@ export const Signup = () => {
             firstName: "",
             PhoneNo: "",
             email: "",
-            password: "",
+            Password: "",
             confirmPassword: "",
             profilePicture: null,
           }}
@@ -130,7 +130,7 @@ export const Signup = () => {
                 <TextField label="Name" name="firstName" type="text" />
                 <TextField label="PhoneNo" name="PhoneNo" type="text" />
                 <TextField label="Email" name="email" type="email" />
-                <TextField label="password" name="password" type="password" />
+                <TextField label="Password" name="Password" type="password" />
                 <TextField
                   label="Confirm Password"
                   name="confirmPassword"
