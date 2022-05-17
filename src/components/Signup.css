@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+input.form-control,
+input.form-control:focus {
+  background: #f0f0ff;
+}
+
+.error,
+.image-error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+}
+.formcontainer {
+  margin-left: 120px !important;
+  width: 450px;
+  margin-top: 30px;
+}
+
+.signup-container {
+  margin-top: 70px;
+}
+.photobutton {
+  border: none;
+  background-color: #f9f9fa;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imageerror {
+  text-align: center;
+}
+.signupimage {
+  margin-left: 220px;
+  height: 70%;
+}
+.signupclass {
+  font-weight: bolder;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 50px;
+}
